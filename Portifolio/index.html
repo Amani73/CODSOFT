@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Amanuel <span>Yeshiwas</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+       <a href="#home">Home</a> 
+       <a href="#about">About</a> 
+       <a href="#services">Services</a> 
+       <a href="#project">Project</a> 
+       <a href="#contact">Contact</a> 
+      </nav>
+      <a href="mailto:amaniyeshiwas12@gmail.com"><button class="gradient-btn">Contact me</button></a>
+
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Amanuel</span></h1>
+        <h3>
+          I'm a <span>A Full-stack Web Developer</span>
+        </h3>
+        <p>I'm an enthusiastic, detail-oriented, and dynamic full-stack web developer with a variety of skills.</p>
+
+        <div class="social-icons">
+          <a href="https://github.com/Amani73">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/amanuel-yeshiwas-yohannes-859449316">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <!-- <a href="#">
+            <i class="bx bxl-instagrm"></i>
+          </a> -->
+          <a href="https://x.com/Aman_2173?t=WywX59rR2hs9Ago64DYPQg&s=09">
+            <i class="bx bxl-twitter"></i>
+          </a>    
+        </div>
+        <div class="btn-group">
+          <a href="./Aman Full stack CV.pdf" class="btn">Resume</a>
+          <a href="#contact" class="btn">Contact</a>
+
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./img/Profile image.jpg" alt="">
+      </div>
+    </section>
+    
+     <section class="about" id="about">
+      <div class="about-img">
+        <img src="./img/Profile image.jpg" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>Hi, I'm Amanuel, a passionate and dedicated full-stack web developer. With a strong foundation in both front-end and back-end technologies, I thrive on transforming innovative ideas into reality. My expertise lies in JavaScript, React, Node.js, Express, and MySQL, allowing me to build dynamic and responsive web applications. <br>
+        <span class="more-text">I have a keen eye for detail and a commitment to delivering high-quality, scalable, and secure solutions. Whether working independently or as part of a team, I excel in problem-solving, creative troubleshooting, and project management. My goal is to create seamless and user-friendly digital experiences that meet and exceed client expectations.</span></p>
+        <a href="#" class="btn read-more">Read more</a>
+      </div>
+     </section>
+
+     <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+          <div class="service-box">
+            <div class="service-info">
+              <i class="bx bxl-figma"></i>
+              <h4>Front-end development</h4>
+              <p>I specialize in front-end development, creating visually appealing and highly interactive user interfaces. Using the latest web technologies, I ensure that your website offers an intuitive and engaging user experience.</p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-info">
+              <i class="bx bx-code"></i>
+              <h4>Back-end dvelopment</h4>
+              <p>My back-end development services focus on building robust and scalable server-side applications. I have experience with Node.js, Express, and various databases such as MySQL and MongoDB.</p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-info">
+              <i class="bx bx-code-curly"></i>
+              <h4>SEO Optimization</h4>
+              <p>I provide SEO optimization services to help your website rank higher in search engine results. By implementing best practices in on-page and off-page SEO, I ensure that your website is easily discoverable by your target audience.</p>
+            </div>
+          </div>
+        </div>
+     </section>
+
+     <section class="project" id="project">
+      <h2 class="heading">Projects</h2>
+      <div class="project-box">
+
+        <div class="project-card">
+          <img src="./img/Travel Page.png" alt="">
+          <h3>Travel Landing Page</h3>
+          <p>A captivating and responsive travel landing page designed to promote tourism in Ethiopia. This project highlights my expertise in HTML, CSS, and JavaScript, featuring vibrant visuals, engaging content with an enticing glimpse into Ethiopian travel destinations.</p>
+          <a href="https://ethiotravel.netlify.app/"><div class="btn">Review Project</div></a>
+        </div>
+
+        <div class="project-card">
+          <img src="./img/Calculator (2).png" alt="">
+          <h3>Calculator</h3>
+          <p>A fully functional web-based calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+          <a href="https://calculatorssample.netlify.app/"><div class="btn">Review Project</div></a>
+        </div>
+
+        </div>
+     </section>
+
+     <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email">
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number">
+          <input type="text" placeholder="Subject">
+        </div>
+      </div>
+      
+
+    <div class="input-group-2">
+      <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+      <input type=" submit" value="Send Message" class="btn">
+    </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://github.com/Amani73">
+        <i class="bx bxl-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/amanuel-yeshiwas-yohannes-859449316?">
+        <i class="bx bxl-linkedin-square"></i>
+      </a>
+      <a href="https://x.com/Aman_2173?t=WywX59rR2hs9Ago64DYPQg&s=09">
+        <i class="bx bxl-twitter"></i>
+      </a>    
+    </div>
+
+    <ul class="list">
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <p class="copyright">
+    @ Amanuel Yeshiwas | All right reserved
+  </p>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
