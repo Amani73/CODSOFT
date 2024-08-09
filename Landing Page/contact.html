@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:ital,wght@0,300;0,700;1,100;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"> <img src="./img/benjamin-voros-jv15x2Gs5F8-unsplash.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+        </section>
+        </div>
+    </section>
+
+
+ <!--    ---------contact us------ -->
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Ethiopia, 22 Mazoria</h5>
+                        <p>You can contcat us by this address</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+251918564378</h5>
+                        <p>Monday to Friday from 8PM to 9AM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>ethiotravel421@gmail.com</h5>
+                        <p>Email Us</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter Email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn"> <a href="">Send Message</a></button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+
+<!--  ------------------Footer------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>You can contact us by the following Social medias, We strive for better tomorrow.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart"></i> by Aman Yeshiwas </p>
+    
+    </section>
+
+<!-- --------------Jv script------------ -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+   function showMenu() {
+    navLinks.style.right = "0";
+   }
+   function hideMenu() {
+    navLinks.style.right = "-200px";
+   }
+</script>
+
+</body>
+</html>

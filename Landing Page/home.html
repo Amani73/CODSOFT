@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:ital,wght@0,300;0,700;1,100;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="home.html"> <img src="./img/benjamin-voros-jv15x2Gs5F8-unsplash.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Ethio Travel</h1>
+        <p>Explore the rich tapestry of Ethiopia with Ethio Travel. Immerse yourself in ancient cultures, vibrant landscapes, and unforgettable experiences that will ignite your sense of adventure and discovery</p>
+        <section class="hero-btn">
+        <a href="aboutus.html">Visit us to know more about us</a>
+    </section>
+    </div>
+
+</section>
+
+<!-- -----Course------ -->
+
+<section class="service">
+<h1>Travel Services We Offer</h1>
+<p>Explore a variety of travel services tailored to meet your needs, whether you're planning a vacation, business trip, or adventure. Our services encompass everything from guided tours to bespoke travel packages.</p>
+
+<div class="row">
+    <div class="service-col">
+        <h3>Customized Travel Plans</h3>
+        <p>Enjoy personalized travel itineraries crafted by experienced travel planners. We cater to your preferences and interests, ensuring a seamless journey from start to finish.es</p>
+    </div>
+    <div class="service-col">
+        <h3>Exclusive Tours</h3>
+        <p>Embark on exclusive tours led by knowledgeable guides. Discover hidden gems and iconic landmarks with insightful commentary and curated experiences.</p>
+    </div>
+    <div class="service-col">
+        <h3>Travel Consultation</h3>
+        <p>Receive expert advice and recommendations from our travel consultants. Whether you need assistance with bookings, visas, or travel insurance, we're here to help.</p>
+    </div>
+</div>
+</section>
+
+<!-- -----------Travel Facilities------------- -->
+
+<section class="facilities">
+    <h1>Travel Facilities</h1>
+    <p>Discover our exceptional travel facilities designed to enhance your journey.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="./img/markus-spiske-g5ZIXjzRGds-unsplash (2).jpg">
+            <h3>Premium Accommodations</h3>
+            <p>Enjoy luxurious accommodations designed for comfort and relaxation, ensuring a restful stay during your travels.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./img/dino-reichmuth-A5rCN8626Ck-unsplash (2).jpg">
+            <h3>Efficient Transportation</h3>
+            <p>Access convenient and reliable transportation services to explore destinations seamlessly, enhancing your travel experience.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./img/farhad-ibrahimzade-3UKip0J0kJM-unsplash (1).jpg">
+            <h3>Culinary Delights</h3>
+            <p>Savor delicious and diverse cuisines crafted with fresh, local ingredients, promising a delightful dining experience throughout your journey.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ----------Testemonials-------------- -->
+
+<section class="testemonials">
+    <h1>What our customer says</h1>
+    <p>Comments from our customers</p>
+    <div class="row">
+        <div class="testimonal-col">
+            <div>
+            <img src="./img/eyoel-kahssay-b7nyPLe9ORE-unsplash (1).jpg">
+            <p>Ethio Travel is the best travel agency I have experienced</p>
+            <h3>Ruth Melaku</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+    </div>
+        <div class="testimonal-col">
+            <div>
+            <img src="./img/christian-buehner-DItYlc26zVI-unsplash (1).jpg">
+            <p>I am lucky to be part of this travel agency for my travel experince.</p>
+            <h3>Carols David</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+    </div>
+</section>
+
+<!-- ------Call to Action--------- -->
+
+<section class="cta">
+    <h1>"Book Your Travel Adventure Anywhere in the World"</h1>
+    <section class="hero-btn">
+    <a href="contact.html">CONTACT US</a>
+</section>
+</section>
+
+<!-- ------Footer--------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>You can contact us by the following Social medias, We strive for better tomorrow.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart"></i> by Aman Yeshiwas </p>
+
+</section>
+
+<!-- 
+----Javascript for toggle menu----- -->
+<script>
+
+   var navLinks = document.getElementById("navLinks");
+   function showMenu() {
+    navLinks.style.right = "0";
+   }
+   function hideMenu() {
+    navLinks.style.right = "-200px";
+   }
+</script>
+
+</body>
+</html>
